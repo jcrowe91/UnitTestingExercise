@@ -9,29 +9,30 @@ namespace UnitTestingExercise
 
 
         // Create an Add method that passes 3 integers
-        public void Add(int first, int second, int third)
+        public int Add(int first, int second, int third)
         {
-
+            return first + second + third;
         }
 
         // Create a Subtract method that passes 2 integers
             // Keep track of which number is getting passed as minuend and subtrahend
-            public void Subtract(int first, int second)
+            public int Subtract(int first, int second)
         {
             int minuiend = first;
             int subtrahend = second;
+            return minuiend - subtrahend;
         }
 
         // Create a Multiply method that passes 2 integers
-        public void Multiply(int first, int second)
+        public int Multiply(int first, int second)
         {
-
+            return first * second;
         }
 
         // Create a Divide method that passes 2 integers
-        public void Divide(int first, int second)
+        public int Divide(int first, int second)
         {
-
+            return first / second;
         }
 
 
