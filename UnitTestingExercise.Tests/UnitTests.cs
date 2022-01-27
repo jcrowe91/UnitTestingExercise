@@ -61,21 +61,22 @@ namespace UnitTestingExercise.Tests
         public void IsEven()
         {
             //Arrange
-
+            var expected = true;
             //Act
-
+            bool actual = true;
             //Assert
-
+            Assert.Equal(expected, actual);
         }
 
         [Fact]
         public void IsOdd()
         {
             //Arrange
-
+            var expected = true;
             //Act
-
+            bool actual = false;
             //Assert
+            Assert.Equal(expected, actual);
         }
     }
 }

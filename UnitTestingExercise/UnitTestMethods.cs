@@ -38,14 +38,28 @@ namespace UnitTestingExercise
 
 
         // Create 2 methods that will utilize the [Fact] tests you wrote
-        public void IsEven(int number)
+        public bool IsEven(int number)
         {
-
+            if (number%2 == 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
 
-        public void IsOdd(int number)
+        public bool IsOdd(int number)
         {
-
+            if (number%2 != 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
         }
         
     }
